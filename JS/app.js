@@ -1,4 +1,3 @@
-// your JavaScript goes here, you can delete this comment
 const todolist = [{todo: "testing the script", status:"in progress"}, {todo: "JS and CSS link", status:"complete"}]
 let completedtodos = []
 for (let task of todolist) {
@@ -7,4 +6,8 @@ for (let task of todolist) {
         completedtodos.push(task)
         console.log(completedtodos)
     }
+}
+for (let completedtask of completedtodos) {
+    let { todo } = completedtask;
+    console.log(todo)
 }
