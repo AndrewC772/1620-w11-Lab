@@ -4,7 +4,6 @@ for (let task of todolist) {
     let { todo, status } = task;
     if (status === "complete"){
         completedtodos.push(task)
-        console.log(completedtodos)
     }
 }
 for (let completedtask of completedtodos) {
